@@ -22,6 +22,22 @@ INSERT INTO alunos (
     status,
     data_criacao
 ) VALUES (
+    'João Maria',
+    '20240004',
+    'joaoMaria@ifgoiano.edu.br',
+    'Analise e Desenvolvimento de Sistemas',
+    'INATIVO',
+    CURRENT_TIMESTAMP
+);
+
+INSERT INTO alunos (
+    nome,
+    matricula,
+    email,
+    curso,
+    status,
+    data_criacao
+) VALUES (
     'Maria Oliveira',
     '20240002',
     'maria@ifgoiano.edu.br',
